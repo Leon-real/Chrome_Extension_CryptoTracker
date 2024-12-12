@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Price Tracker</title>
+  <!-- Link to Popup-specific CSS -->
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Crypto Price Tracker</h1>
+
+    <!-- Search Container -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search by name or ticker">
+      <ul id="coinList"></ul>
+    </div>
+
+    <!-- Selected Coins -->
+    <div id="selectedCoins"></div>
+
+    <!-- Prices Section -->
+    <div id="prices"></div>
+  </div>
+
+  <!-- Import JavaScript modules -->
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
