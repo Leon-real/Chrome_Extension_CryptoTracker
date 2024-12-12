@@ -1,0 +1,57 @@
+# macOS 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+*.DS_Store
+# 아이콘은 두 개의 \r로 끝나야 함
+Icon
+
+# 썸네일
+._*
+
+# 볼륨 루트에 나타날 수 있는 파일들
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 원격 AFP 공유에서 생성될 수 있는 디렉토리
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# iCloud에서 생성된 파일
+*.icloud
+
+# 빌드 출력 디렉토리
+/build/
+
+# 의존성 디렉토리
+/node_modules/
+
+# 개발 중 생성되는 임시 파일
+*.log
+*.tmp
+
+# 크롬 확장 프로그램 패키징 파일
+*.crx
+*.pem
+
+# 개발 도구 설정 파일
+.vscode/
+.idea/
+
+# 환경 설정 파일 (필요에 따라 주석 처리)
+# .env
+
+# 테스트 커버리지 리포트
+/coverage/
+
+# 번들러 출력 파일
+/dist/
+
