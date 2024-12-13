@@ -3,7 +3,7 @@
     "name": "Cryptocurrency Price Tracker",
     "version": "1.0",
     "description": "Binance Future Track real-time prices of selected cryptocurrencies.",
-    "permissions": ["storage"],
+    "permissions": ["storage","activeTab"],
     "host_permissions": [
       "https://fapi.binance.com/fapi/v1/*"
     ],
