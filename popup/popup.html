@@ -2,29 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- 반응형 웹 디자인을 위한 뷰포트 설정 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 페이지 제목 설정 -->
   <title>Crypto Price Tracker</title>
-  <!-- Link to Popup-specific CSS -->
+  <!-- popup.css 파일을 연결 -->
   <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
+  <!-- 메인 컨테이너 -->
   <div class="container">
+    <!-- 페이지 제목 -->
     <h1>Crypto Price Tracker</h1>
 
-    <!-- Search Container -->
+    <!-- 검색 기능을 위한 컨테이너 -->
     <div class="search-container">
+      <!-- 검색 입력 필드 -->
       <input type="text" id="searchInput" placeholder="Search by name or ticker">
+      <!-- 검색 결과를 표시할 리스트 -->
       <ul id="coinList"></ul>
     </div>
 
-    <!-- Selected Coins -->
+    <!-- 선택된 코인들을 표시할 영역 -->
     <div id="selectedCoins"></div>
 
-    <!-- Prices Section -->
+    <!-- 가격 정보를 표시할 영역 -->
     <div id="prices"></div>
   </div>
 
-  <!-- Import JavaScript modules -->
+  <!-- JavaScript 모듈 파일(popup.js)을 불러옴 -->
   <script type="module" src="popup.js"></script>
 </body>
 </html>
